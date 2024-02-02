@@ -21,3 +21,5 @@ for url in urls:
 travel_df, traveller_master_df, visit_area_info_df = dfs
 
 print(travel_df.head())
+
+dfs[dfs['TRAVEL_ID'] == 'a_a015688']
